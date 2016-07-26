@@ -188,3 +188,101 @@ body > footer {
 	margin: 3% 0;
 	font-weight: normal;
 }
+
+/*media query*/
+
+/*=====max 800======*/
+@media (max-width: 800px) {
+	section > article > img {
+		width: 500px;
+	}
+	footer {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.previous-button p {
+		width: 200px;
+	}
+	.next-button p {
+		width: 200px;
+		margin-left: 200px;
+	}
+}
+
+/*=====max 550====*/
+@media (max-width: 550px) {
+	section > article > img {
+		width: 300px;
+	}
+	.img-wrap img {
+		width: 300px;
+	}
+	footer textarea {
+		width: 300px;
+	}
+		.next-button p {
+		width: 200px;
+		margin-left: 100px;
+	}
+}
+
+/*====max 480=====*/
+@media (max-width: 480px) {
+	.next-article a {
+		font-size: 10px;
+	}
+	.previous-article a {
+		font-size: 10px;
+	}
+	.button-group button:last-child {
+		font-size: 10px;
+	}
+}
+
+/*=====max 400=====*/
+@media (max-width: 400px) {
+	.button-group button:last-child {
+		font-size: 10px;
+	}
+	section > footer {
+		margin-right: 0;
+		margin-left: 50px;
+		width: 300px;
+	}
+	.previous-button p {
+		width: 100px;
+	}
+	.next-button p {
+		width: 100px;
+	}
+}
+
+/*=====max 330======*/
+@media (max-width: 330px) {
+	nav > div > input {
+		width: 100px;
+	}
+	section > article > img {
+		width: 250px;
+	}
+		.img-wrap img {
+		width: 200px;
+	}
+	section footer {
+		margin-left: 0;
+	}
+	footer textarea {
+		width: 200px;
+	}
+	footer .button-group {
+		margin-left: 20px;
+	}
+	.previous-article {
+		left: 20px;
+	}
+	.next-article {
+		right: 20px;
+	}
+	.next-button p {
+		margin-left: 58px;
+	}
